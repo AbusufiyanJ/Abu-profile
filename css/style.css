@@ -1280,6 +1280,8 @@ h4.modal-title {
 	filter: alpha(opacity=0);
 }
 /*-- //to-top --*/
+
+
 /*-- /responsive design --*/
 @media(max-width:1440px){
 }
@@ -1779,7 +1781,18 @@ h4.modal-title {
     padding: 1em 0 2em 0;
 	}
 	.w3l_footer_pos {
+        height: 10px,auto;
+        width: 10px;
+        max-height: auto;
     margin-top: 2em;
+
+    }
+    
+    .w3l_footer_pos img{
+        height: 10%,auto;
+        width: 10%;
+        max-height: auto;
+
 	}
 	.cd-stretchy-nav {
     right: 1.9%;
